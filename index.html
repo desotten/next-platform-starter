@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="ico.ico">
+    <title>De Sotten App</title>
+	
+
+
+	
+    <style>
+	
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+            background-color: #f7f7f7;
+        }
+        .button-container {
+            text-align: center;
+            width: 150%;
+            max-width: 300px; /* Maximale breedte voor betere leesbaarheid op grote schermen */
+        }
+        .button-container button {
+            width: 100%; /* Knoppen vullen de containerbreedte */
+            padding: 15px; /* Zorgt voor voldoende ruimte binnen de knoppen */
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+            margin: 10px 0; /* Ruimte tussen de knoppen */
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        .button-container button:hover {
+            background-color: #0056b3;
+            transform: scale(1.05); /* Visueel effect bij hover */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="button-container">
+	    <img src="logo.jpg" alt="Beschrijving van de afbeelding" width="75"><br>
+		<button onclick="location.href='2025.html'">2025</button>
+        <button onclick="location.href='https://agenda.desotten.be/'">Agenda</button>
+        <button onclick="location.href='begeleiders.html'">Begeleiders</button>
+
+    </div>
+</body>
+</html>
